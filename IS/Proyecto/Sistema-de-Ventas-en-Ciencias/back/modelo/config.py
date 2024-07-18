@@ -1,0 +1,1 @@
+GMAIL_PASSWORD = 'jnbx pzpq bvxu bprb'

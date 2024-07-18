@@ -1,0 +1,7 @@
+Lista TODO
+
+1) Agregar pagina para solo ver los productos de un vendedor (copiar la lista de productos de comprador)
+2) Usar la clave de las cookies, para que al realizar operaciones que modifiquen la base de datos (agregar, modificar y eliminar productos, comprar y dejar reviews) se revise la clave y se vea si la operacion pasa o no
+3) Todas las operaciones que envien correos/modifiquen la base, desactivar el boton de la accion hasta que termine el fetch y las cosas del back (si es posible poner una pantalla de espera con penguin.gif)
+4) Para que funcione el back, se necesita un archivo llamado config.py, el cual debe vivir en la carpeta modelo, para obtener este archivo contactar a alguno del equipo
+5) En los fetchs, poner en el ".catch((error)", una pantalla que diga que hubo un error de Conexion (no se pudo comunicar con el back) 

@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117; /* Fondo oscuro para mayor contraste */
+    color: #c9d1d9; /* Texto gris claro para legibilidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilos del contenedor de registro */
+  .registro-container {
+    background: #161b22; /* Sombra ligeramente más clara para el fondo del formulario */
+    padding: 40px;
+    width: 400px; /* Incrementado el ancho para mayor amplitud */
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos de los encabezados */
+  h2 {
+    text-align: center;
+    color: #58a6ff; /* Azul claro para los encabezados, proporciona una sensación moderna */
+    margin-bottom: 24px;
+    text-transform: uppercase; /* Texto en mayúsculas para destacar */
+  }
+  
+  /* Estilos de las etiquetas */
+  label {
+    margin-bottom: 12px; /* Reducido el espacio entre etiquetas */
+    font-size: 16px; /* Incrementado el tamaño de la fuente */
+    color: #8b949e; /* Gris sutil para el texto */
+  }
+  
+  /* Estilos de los campos de texto, correo y teléfono */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 14px; /* Incrementado el relleno */
+    margin-bottom: 24px; /* Espacio adicional entre campos */
+    border: 2px solid #30363d; /* Color del borde similar al fondo pero distinguible */
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 16px;
+    background-color: #0d1117; /* Coincide con el fondo del cuerpo */
+    color: #c9d1d9; /* Color de texto claro para mayor contraste */
+  }
+  
+  /* Estilos al enfocar los campos de texto, correo y teléfono */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #58a6ff; /* Color de resaltado al enfocar */
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(88, 166, 255, 0.5); /* Sombra más pronunciada */
+  }
+  
+  /* Estilos del select */
+  select {
+    padding: 14px;
+    margin-bottom: 24px;
+    border: 2px solid #30363d;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  /* Estilos al enfocar el select */
+  select:focus {
+    border-color: #58a6ff; /* Color de resaltado al enfocar */
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(88, 166, 255, 0.5); /* Sombra más pronunciada */
+  }
+  
+  /* Estilos del botón */
+  button {
+    font-size: 18px; /* Incrementado el tamaño de la fuente */
+    font-weight: bold; /* Texto en negrita para destacar */
+    color: white;
+    background-color: #238636; /* Verde vibrante para acciones */
+    border: none;
+    padding: 16px 24px; /* Incrementado el relleno */
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos al pasar el ratón sobre el botón */
+  button:hover {
+    background-color: #2ea043; /* Un verde ligeramente más claro al pasar el ratón */
+  }
+  
+  /* Estilos del enlace */
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+    margin-top: 24px;
+    text-align: center;
+    display: block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

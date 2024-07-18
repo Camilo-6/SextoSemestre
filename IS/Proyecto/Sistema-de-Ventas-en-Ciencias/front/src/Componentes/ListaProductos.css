@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117; /* Fondo oscuro para mayor contraste */
+  color: #c9d1d9; /* Texto gris claro para legibilidad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos de los encabezados */
+h2 {
+  text-align: center;
+  color: #58a6ff; /* Azul claro para los encabezados, proporciona una sensación moderna */
+  margin-bottom: 24px;
+  text-transform: uppercase; /* Texto en mayúsculas para destacar */
+}
+
+/* Estilos del botón */
+button {
+  font-size: 18px; /* Incrementado el tamaño de la fuente */
+  font-weight: bold; /* Texto en negrita para destacar */
+  color: white;
+  background-color: #238636; /* Verde vibrante para acciones */
+  border: none;
+  padding: 16px 24px; /* Incrementado el relleno */
+  border-radius: 8px; /* Bordes más redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilos al pasar el ratón sobre el botón */
+button:hover {
+  background-color: #2ea043; /* Un verde ligeramente más claro al pasar el ratón */
+}
+
+/* Estilos para inputs */
+input[type="text"] {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Estilos para el contenedor del encabezado */
+.header-container {
+  display: flex; /* Usar flexbox */
+  flex-direction: column; /* Apilar los elementos verticalmente */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #0d1117; /* Fondo oscuro para que coincida con el fondo del cuerpo */
+  padding: 10px; /* Espaciado para mejorar la apariencia */
+}
+
+/* Estilos para el contenedor de filtros */
+.filter-container {
+  display: flex; /* Usar flexbox */
+  justify-content: space-between; /* Espacio uniforme entre los elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+/* Estilos para el grupo de filtros */
+.filter-group {
+  display: flex; /* Usar flexbox */
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para las etiquetas en los grupos de filtros */
+.filter-group label {
+  margin-right: 10px; /* Añadir margen entre las etiquetas y los inputs/select */
+}
+
+/* Estilos para los inputs y select en los grupos de filtros */
+.filter-group input,
+.filter-group select {
+  margin-right: 5px; /* Reducir el margen derecho */
+}
+.button-container {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: #0d1117; /* Fondo oscuro para que coincida con el fondo del cuerpo */
+  padding: 10px; /* Espaciado para mejorar la apariencia */
+  text-align: center; /* Centra el contenido horizontalmente */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  left: 0; /* Establece el borde izquierdo en 0 para centrar */
+  right: 0; /* Establece el borde derecho en 0 para centrar */
+}
+
+/* Estilos para el contenedor de la tabla */
+.table-container {
+  overflow-x: auto; /* Desplazamiento horizontal si la tabla es muy ancha */
+  max-height: calc(
+    80vh - 50px
+  ); /* Altura máxima para el desplazamiento vertical, ajustada según el tamaño del encabezado */
+  margin-top: 50px; /* Ajusta el margen superior para evitar superposiciones y asegura que siempre haya un espacio visible sobre el encabezado de la tabla */
+}
+
+/* Estilos para el cuerpo de la tabla con desplazamiento vertical */
+.product-table tbody {
+  overflow-y: auto;
+}
+
+/* Estilos para el encabezado de la tabla */
+.product-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 2; /* Asegura que el encabezado esté por encima del contenido de la tabla */
+  background-color: #0d1117; /* Fondo oscuro para mayor contraste */
+}
+
+/* Estilos para la tabla */
+.product-table {
+  width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+  margin-top: 40px; /* Ajusta el margen superior para evitar superposiciones */
+}

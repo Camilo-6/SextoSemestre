@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos del contenedor de formulario */
+.form-container {
+  background: #161b22;
+  padding: 40px;
+  width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Estilos de los encabezados */
+h2 {
+  color: #58a6ff;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Estilos de las etiquetas */
+label {
+  font-size: 16px;
+  color: #8b949e;
+}
+
+/* Estilos de los campos de texto y selección */
+input[type="text"],
+input[type="file"],
+select,
+input[type="number"] {
+  padding: 14px;
+  border: 2px solid #30363d;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  border-color: #58a6ff;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(88, 166, 255, 0.5);
+}
+
+/* Estilos del botón */
+button {
+  font-size: 18px; /* Tamaño de la fuente */
+  font-weight: bold; /* Texto en negrita para destacar */
+  color: white; /* Color del texto */
+  background-color: #238636; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  padding: 16px 24px; /* Relleno */
+  border-radius: 8px; /* Bordes más redondeados */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  grid-column: span 2; /* Ocupar dos columnas */
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+/* Estilos de la fila */
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+}
