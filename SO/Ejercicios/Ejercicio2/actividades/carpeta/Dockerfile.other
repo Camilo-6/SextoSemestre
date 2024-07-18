@@ -1,0 +1,8 @@
+FROM python:3.7-alpine
+WORKDIR /code
+ENV VIRTUAL_ENV=/code/venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+RUN apk add --no-cache gcc musl-dev linux-headers
+EXPOSE 5000

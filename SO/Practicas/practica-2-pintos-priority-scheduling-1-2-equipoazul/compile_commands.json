@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "/Users/ricchyalainperezchevanier/Projects/pintos-threads-ayudantes-so-20241/src",
+        "command": "/usr/bin/clang threads/init.c  -isystem lib -isystem lib/kernel -I .",
+        "file": "threads/init.c"
+    }
+]
