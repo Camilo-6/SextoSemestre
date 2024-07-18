@@ -1,0 +1,50 @@
+.Indice {
+  background-image: url("../../public/el-futuro.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgb(122, 199, 122); /* Cambia el color de fondo a verde */
+  text-align: center; /* Centra el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+h1 {
+  color: rgb(255, 255, 255); /* Cambiar el color del texto */
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
+}
+
+h2 {
+  font-size: 60px; /* Ajusta el tamaño de la fuente */
+  color: white;
+  -webkit-text-stroke: 1.8px black; /* Agrega un borde al texto */
+}
+
+.section-item button {
+  background-image: url("../../public/water1.gif");
+  padding: 10px 20px; /* Ajusta el padding para hacer los botones más grandes */
+  font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+  background-color: rgb(119, 109, 212); /* Cambia el color de fondo a azul */
+  color: white; /* Cambia el color del texto a blanco */
+  border: none; /* Elimina el borde */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  margin: 5px; /* Agrega un margen entre los botones */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+.section-item button:hover {
+  background-image: url("../../public/water2.gif");
+  background-color: rgb(
+    30,
+    30,
+    179
+  ); /* Cambia el color de fondo al pasar el mouse */
+  color: rgb(255, 255, 255); /* Cambia el color del texto a blanco */
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}

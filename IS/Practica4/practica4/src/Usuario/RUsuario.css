@@ -1,0 +1,65 @@
+.RUsuario {
+  background-image: url("../../public/korone-math.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgb(122, 199, 122);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.botC button {
+  background-image: url("../../public/water1.gif");
+  padding: 5px 10px;
+  font-size: 1em;
+  background-color: rgb(119, 109, 212);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.botC button:hover {
+  background-image: url("../../public/water2.gif");
+  background-color: rgb(30, 30, 179);
+  color: rgb(255, 255, 255);
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.table-container {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.452);
+}
