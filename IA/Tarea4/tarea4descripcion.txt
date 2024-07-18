@@ -1,0 +1,18 @@
+Tarea 4
+Inteligencia Artificial
+
+José Camilo García Ponce - 319210536
+
+Tarea sobre algoritmos genéticos y el problema Knapsack
+El objetivo es intentar dar una solución al problema Knapsack usando algoritmos genéticos, como lo explicado en clase
+
+Knapsack1.java tiene una version en java sin usar bibliotecas
+En este programa primero planteamos la lista de objetos y la población inicial (con cromosomas aleatorios)
+Luego hacemos generaciones, donde en cada generación a la población la evaluamos con la función fitness (que solo evalúa el valor de los objetos de cada individuo, sin pasarse del peso de la mochila), luego se selecciona a los mejores individuos y con esto se crean nuevos individuos (los cuales son mutados) y obtenemos la nueva generación, repitiendo este proceso 100 generaciones
+Y al final obtenemos los cromosomas del mejor individuo de la última generación y los mostramos
+
+Knapsack2.py tiene una version en python que usar la biblioteca DEAP (instalada con pip install deap)
+En este programa uso algunas cosas de la biblioteca para facilitar el algoritmo
+Primero se crea la lista de objetos, luego creamos los tipos fitness e individuo (y las registramos)
+Después definimos la función para evaluar a los individuos (funciona igual a la del otro archivo) y la registramos junto con otras operaciones genéticas para mutar, seleccionar y generar nuevos individuos
+Por último configuramos la población inicial, se simulan también 100 generaciones y al para finalizar mostramos igual el mejor individuo y sus cromosomas

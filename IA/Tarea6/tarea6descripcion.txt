@@ -1,0 +1,13 @@
+Tarea 6
+Inteligencia Artificial
+
+José Camilo García Ponce - 319210536
+
+El objetivo de la tarea es intentar encontrar una cadena dada, usando algoritmos genéticos
+
+Cadena.java tiene una version en java para resolver la tarea, sin usar bibliotecas
+En el programa primero pedimos la cadena que vamos a encontrar, luego planteamos la población inicial (con cromosomas aleatorios)
+Para la población, a cada letra y espacio le asignamos un número y de esta manera cada individuo es un arreglo de números
+Luego hacemos varias generaciones (hasta lograr encontrar la cadena dad), donde en cada generación a la población la evaluamos con la función evaluarFitness() (que revisa qué tan similar es con la cadena buscada), después se seleccionan a los dos mejores individuos y con esto se crean nuevos individuos (los cuales son mutados) y obtenemos la nueva generación
+Y llegamos al final cuando encontramos la cadena a buscar y por último imprimimos cuantas generaciones tomo (además de cada 500 generaciones, mostrar cual es la cadena más similar obtenida)
+Para usar el programa, solo se tiene que compilar (javac Cadena.java) y luego ejecutar (java Cadena)

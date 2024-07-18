@@ -1,0 +1,10 @@
+Tarea 5
+Inteligencia Artificial
+
+José Camilo García Ponce - 319210536
+
+Tarea sobre investigar acerca del perceptrón
+El objetivo es conocer que es, como funciona, éxitos y críticas del perceptron
+
+En el pdf, está un pequeño resumen de lo que investigue y encontre acerca del perceptrón, además una imagen de como funciona
+

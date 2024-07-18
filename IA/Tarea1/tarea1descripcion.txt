@@ -1,0 +1,13 @@
+Tarea 1
+Inteligencia Artificial
+
+José Camilo García Ponce - 319210536
+
+Ejercicio 1: modelar una familia en Prolog (con hijos, nietos, abuelos, tios, primos)
+esta en el archivo tarea1familia.pl
+hice una familia inventada con 14 personas (y 4 niveles)
+
+Ejercicio 2: realizar en Prolog el problema escrito enclase
+esta en el archivo tarea1problema
+al final comente las consultas para verificar lo escriro en clase, solo una cosa no puede verificar
+que el principal se volvio padre de su papá, segun yo esto es imposible, ya que para lograrlo se debe casar con su abuela paterna, pero nunca se menciona a su abuela parterna o sabemos quien es

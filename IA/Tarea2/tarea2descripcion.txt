@@ -1,0 +1,8 @@
+Tarea 2
+Inteligencia Artificial
+
+José Camilo García Ponce - 319210536
+
+Para correr el sistema experto es con "go."
+Lo probe en Prolog SWISH y funciono bien.
+Es un sistema experto para identificar entre 5 especias de pingüinos.
