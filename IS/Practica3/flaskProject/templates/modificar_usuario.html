@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Usuario</title>
+</head>
+<body>
+    <h1>Modificar Usuario</h1>
+    <form action="" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="{{ usuario.nombre }}"><br>
+
+        <label for="apPat">Apellido Paterno:</label>
+        <input type="text" id="apPat" name="apPat" value="{{ usuario.apPat }}"><br>
+
+        <label for="apMat">Apellido Materno:</label>
+        <input type="text" id="apMat" name="apMat" value="{{ usuario.apMat }}"><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" value="{{ usuario.password }}"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{ usuario.email }}"><br>
+
+        <label for="superUser">Super Usuario:</label>
+        <input type="checkbox" id="superUser" name="superUser" {% if usuario.superUser %} checked {% endif %}><br>
+
+        <button type="submit">Guardar Cambios</button>
+    </form>
+    {% if get_flashed_messages() %}
+        {% for message in get_flashed_messages() %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
