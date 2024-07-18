@@ -1,1 +1,1 @@
-GMAIL_PASSWORD = 'jnbx pzpq bvxu bprb'
+GMAIL_PASSWORD = 'jnbx pzpq bvxu bprb' # Contrasenia ya no es valida
